@@ -5,7 +5,13 @@
 */
 
 function isAnagram(str1, str2) {
-
+  if ( typeof str1 === 'string' & typeof str2 === 'string' ) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 module.exports = isAnagram;
+
+isAnagram(1, ola);
